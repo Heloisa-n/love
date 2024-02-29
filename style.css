@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 90vw;
+  height: 90vh;
+  gap: 1rem;
+}
+
+.ocultar {
+  display: none;
+}
+
+.caixa_do_textinho {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  width: 100vw;
+  height: 3em;
+  background-color: black;
+  color: white;
+  font-family: "dancing Script";
+  font-size: 2rem;
+}
+.caixa_do_textinho .coracao {
+  width: 23px;
+  height: 23px;
+}
+
+.fadein {
+  animation: fadeIn 5s;
+}
+.fadein .botao {
+  color: white;
+  background: transparent;
+  border: white solid 2px;
+  border-radius: 2rem;
+  font-family: "dancing Script";
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */
